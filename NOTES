@@ -1,0 +1,22 @@
+main:
+    push 10
+    push 20
+
+    pop rax
+    pop rbx
+
+    call print
+
+    push rax
+
+    out
+
+    hlt
+
+print:
+
+    push rax
+    push rbx
+    add
+
+    pop rax
